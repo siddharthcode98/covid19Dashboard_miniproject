@@ -1,0 +1,49 @@
+.IndiaStats {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width: 80%;
+}
+
+.colorFill1 {
+  color: #ff073a;
+}
+.colorFill2 {
+  color: #007bff;
+}
+.colorFill3 {
+  color: #28a745;
+}
+.colorFill4 {
+  color: #6c757d;
+}
+
+.paragraph {
+  font-size: 12px;
+  font-family: "Roboto";
+  text-align: center;
+}
+@media screen and (min-width: 767px) {
+  .paragraph {
+    font-size: 24px;
+  }
+}
+
+.count {
+  font-size: 16px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+  .count {
+    font-size: 24px;
+  }
+}
+.statusCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 85px;
+  min-height: 96px;
+}

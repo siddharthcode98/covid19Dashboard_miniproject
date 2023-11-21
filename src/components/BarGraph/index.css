@@ -1,0 +1,212 @@
+.bar {
+  color: #9a0e31;
+}
+.spread-trend-heading {
+  width: 285px;
+  height: 48px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #cbd5e1;
+}
+
+.barchart-container-mobile {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 767px) {
+  .barchart-container-mobile {
+    display: none;
+  }
+  .barchart-container {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    height: 431px;
+    border-radius: 8px, 8px, 0px, 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .barchart-container {
+    display: none;
+  }
+}
+
+/* .line-chart-confirmed {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  height: 150px;
+} */
+.x-line {
+  border: 2px;
+}
+
+/* line charts  */
+
+.chartsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+}
+
+.line-chart-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #331427;
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .line-chart-container-mobile {
+    display: none;
+  }
+  .line-chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #331427;
+    margin-bottom: 20px;
+    min-height: 328px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .line-chart-container {
+    display: none;
+  }
+}
+/* recovered */
+.line-chart-recovered-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #182829;
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .line-chart-recovered-container-mobile {
+    display: none;
+  }
+  .line-chart-recovered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #182829;
+    margin-bottom: 20px;
+    min-height: 328px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .line-chart-recovered-container {
+    display: none;
+  }
+}
+/* active */
+.line-chart-active-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #132240;
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .line-chart-active-container-mobile {
+    display: none;
+  }
+  .line-chart-active-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #132240;
+    margin-bottom: 20px;
+    min-height: 328px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .line-chart-active-container {
+    display: none;
+  }
+}
+/* deceased */
+.line-chart-deceased-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background-color: #132240;
+  margin-bottom: 20px;
+  min-width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .line-chart-deceased-container-mobile {
+    display: none;
+  }
+  .line-chart-deceased-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #1c1c2b;
+    margin-bottom: 20px;
+    min-height: 328px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .line-chart-deceased-container {
+    display: none;
+  }
+}
+/* tested */
+.line-chart-Tested-container-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  background-color: #230f41;
+  min-width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .line-chart-Tested-container-mobile {
+    display: none;
+  }
+  .line-chart-Tested-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #230f41;
+    margin-bottom: 20px;
+    min-height: 328px;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .line-chart-Tested-container {
+    display: none;
+  }
+}

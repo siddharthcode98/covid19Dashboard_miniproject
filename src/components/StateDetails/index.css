@@ -1,0 +1,48 @@
+.stateItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.paragraph2 {
+  font-size: 14px;
+  min-width: 110px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+.paragraph {
+  font-size: 14px;
+  min-width: 43px;
+  font-family: "Roboto";
+  text-align: right;
+  font-weight: 500;
+}
+.paragraph3 {
+  font-size: 14px;
+  min-width: 43px;
+  text-align: right;
+  font-family: "Roboto";
+}
+.textContainer1 {
+  width: 203px;
+  margin-right: 170px;
+}
+.textContainer2 {
+  width: 43px;
+  margin-right: 137px;
+}
+.confirmed {
+  color: #ff073a;
+}
+.active {
+  color: #007bff;
+}
+.recovered {
+  color: #28a745;
+}
+.deceased {
+  color: #6c757d;
+}
+.population {
+  color: #94a3b8;
+}

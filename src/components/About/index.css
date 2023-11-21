@@ -1,0 +1,120 @@
+.about-text-container {
+  align-self: stretch;
+  padding-left: 24px;
+  padding-right: 24px;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 767px) {
+  .about-text-container {
+    padding-left: 150px;
+  }
+}
+
+.about {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f8fafc;
+}
+@media screen and (min-width: 767px) {
+  .about {
+    font-size: 48px;
+  }
+}
+.last-update-about {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+@media screen and (min-width: 767px) {
+  .last-update-about {
+    font-size: 18px;
+  }
+}
+.ready-for-distribution {
+  top: 172px;
+  left: 24px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e2e8f0;
+}
+@media screen and (min-width: 767px) {
+  .ready-for-distribution {
+    font-size: 24px;
+  }
+}
+.listOfQns {
+  padding: 0px;
+  list-style: none;
+}
+/* @media screen and (min-width: 767px) {
+  .listOfQns {
+    top: 344px;
+    left: 150px;
+  }
+} */
+.loader-container {
+  position: absolute;
+  top: 472px;
+  bottom: 472px;
+  right: 680px;
+  left: 680px;
+}
+.failure-Image {
+  position: absolute;
+  width: 448px;
+  height: 300px;
+  top: 230px;
+  left: 496px;
+}
+.failure-Heading {
+  position: absolute;
+  width: 261px;
+  height: 48px;
+  top: 562px;
+  left: 590px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cbd5e1;
+}
+.failure-paragraph {
+  position: absolute;
+  width: 483px;
+  height: 64px;
+  top: 626px;
+  left: 479px;
+  color: #94a3b8;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.failure-button {
+  position: absolute;
+  width: 88px;
+  height: 48px;
+  top: 722px;
+  left: 676px;
+  border-radius: 12px;
+  padding: 12px 24px 12px 24px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border: none;
+}

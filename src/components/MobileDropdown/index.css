@@ -1,0 +1,29 @@
+.linkContainer2 {
+  width: 360px;
+  position: absolute;
+  top: 80px;
+  display: flex;
+  list-style: none;
+}
+.text {
+  font-weight: 500;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.35555556416511536px;
+  text-align: left;
+  color: #94a3b8;
+  margin-right: 20px;
+}
+.close {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  margin-left: 174px;
+  margin-right: 26px;
+}
+.closeBtn {
+  background-color: transparent;
+  border: none;
+}

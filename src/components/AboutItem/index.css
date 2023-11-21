@@ -1,0 +1,28 @@
+.qns {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #94a3b8;
+}
+@media screen and (min-width: 767px) {
+  .qns {
+    font-size: 16px;
+  }
+}
+.ans {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #007bff;
+}
+@media screen and (min-width: 767px) {
+  .ans {
+    font-size: 16px;
+  }
+}

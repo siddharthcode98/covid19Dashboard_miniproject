@@ -1,0 +1,246 @@
+.specific-state-section-1 {
+  align-self: stretch;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media screen and (min-width: 1023px) {
+  .specific-state-section-1 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+.specific-state-section-2 {
+  align-self: stretch;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 64px;
+}
+@media screen and (min-width: 1023px) {
+  .specific-state-section-2 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+.specific-state-section-3 {
+  align-self: stretch;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 64px;
+}
+@media screen and (min-width: 1023px) {
+  .specific-state-section-3 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+.specific-state-section-4 {
+  align-self: stretch;
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 64px;
+}
+@media screen and (min-width: 1023px) {
+  .specific-state-section-4 {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+.state-name {
+  font-family: "Roboto";
+  color: #0284c7;
+  font-size: 16px;
+  max-width: 273px;
+  min-height: 48px;
+  margin: 0px;
+}
+@media screen and (min-width: 767px) {
+  .state-name {
+    font-size: 31px;
+  }
+}
+.state-name-container {
+  max-width: 50%;
+}
+.last-update {
+  font-family: "Roboto";
+  color: #cbd5e1;
+  max-width: 265px;
+  height: 24px;
+  margin: 0px;
+  font-size: 12px;
+}
+@media screen and (min-width: 767px) {
+  .last-update {
+    font-size: 24px;
+  }
+}
+/* .stateNameContainer {
+  background-color: #0284c729;
+  border-radius: 32px;
+  padding: 10.54px 21.08px 10.54px 21.08px;
+  height: 64px;
+  width: 312px;
+  max-width: 450px;
+  position: absolute;
+  top: 144px;
+  left: 150px;
+  right: 978px;
+  bottom: 3580px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.tested {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  max-width: 53px;
+  max-height: 24px;
+  color: #94a3b8;
+}
+@media screen and (min-width: 767px) {
+  .tested {
+    font-size: 16px;
+  }
+}
+.testedCases {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 110px;
+  height: 24px;
+  color: #94a3b8;
+  text-align: right;
+}
+@media screen and (min-width: 767px) {
+  .testedCases {
+    font-size: 24px;
+  }
+}
+.stateActiveCases {
+  display: inline-flex;
+  justify-content: space-between;
+  min-height: 232px;
+  border-radius: 12px;
+  min-width: 100%;
+  flex-wrap: wrap;
+}
+.stateSpecificTextContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  max-height: 300px;
+  max-width: 100%;
+}
+.colorFill1 {
+  color: #ff073a;
+}
+.colorFill2 {
+  color: #007bff;
+}
+.colorFill3 {
+  color: #28a745;
+}
+.colorFill4 {
+  color: #6c757d;
+}
+
+.paragraphState {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+@media screen and (min-width: 767px) {
+  .paragraphState {
+    font-size: 24px;
+  }
+}
+.countState {
+  font-size: 24px;
+  font-family: "Roboto";
+}
+@media screen and (min-width: 767px) {
+  .countState {
+    font-size: 32px;
+  }
+}
+.statusCardState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 148px;
+  min-height: 148px;
+  border-radius: 12px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (min-width: 767px) {
+  .statusCardState {
+    min-width: 264px;
+    min-height: 232px;
+  }
+}
+
+.topDistrictsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  list-style: none;
+  padding: 0px;
+}
+/* @media screen and (min-width: 424px) and (max-width: 767px) {
+  .topDistrictsContainer {
+    max-height: 500px;
+  }
+} */
+@media screen and (min-width: 767px) {
+  .topDistrictsContainer {
+    max-height: 500px;
+  }
+}
+.topDistContainer {
+  min-width: 100%;
+}
+.topDist {
+  font-family: Roboto;
+  font-size: 32px;
+  text-align: left;
+  letter-spacing: 0em;
+  font-weight: 500;
+  line-height: 48px;
+}
+.listItem {
+  height: 50px;
+  color: #94a3b8;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}
+.casesSpan {
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+.bgColor1 {
+  background-color: #331427;
+}
+.bgColor2 {
+  background-color: #132240;
+}
+.bgColor3 {
+  background-color: #182829;
+}
+.bgColor4 {
+  background-color: #212230;
+}

@@ -1,0 +1,104 @@
+/* .footerContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 120px;
+} */
+.footer-text {
+  font-size: 16px;
+  color: #94a3b8;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+/* .imageContainer {
+  width: 1440px;
+  padding-left: 642px;
+  padding-right: 642px;
+  position: absolute;
+  top: 3527px;
+  left: 0px;
+  right: 0px;
+  box-sizing: border-box;
+} */
+@media screen and (max-width: 360px) {
+  .imageContainer {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+}
+.footerLogo {
+  width: 152px;
+}
+/* .textContainer {
+  height: 24px;
+  width: 348px;
+  position: absolute;
+  top: 3583px;
+  padding-left: 546px;
+  padding-right: 546px;
+  text-align: center;
+  left: 0px;
+  right: 0px;
+} */
+@media screen and (max-width: 360px) {
+  .textContainer {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.iconContainer {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  justify-content: space-between;
+}
+@media screen and (max-width: 360px) {
+  .iconContainer {
+    padding-left: 121px;
+    padding-right: 122px;
+  }
+}
+.githubIcon {
+  height: 46.11px;
+  width: 42px;
+  color: #cbd5e1;
+}
+/* @media screen and (max-width: 360px) {
+  .githubIcon {
+    position: absolute;
+    left: 121px;
+    right: 217px;
+  }
+} */
+.instaIcon {
+  height: 61px;
+  width: 47px;
+  color: #cbd5e1;
+}
+/* @media screen and (max-width: 360px) {
+  .instaIcon {
+    position: absolute;
+    left: 167px;
+    right: 170px;
+  }
+} */
+.twitterIcon {
+  height: 49px;
+  width: 40px;
+  color: #cbd5e1;
+}
+/* @media screen and (max-width: 360px) {
+  .twitterIcon {
+    position: absolute;
+    left: 214px;
+    right: 122px;
+  }
+} */
+.footer {
+  max-height: 100vh;
+  align-self: stretch;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
