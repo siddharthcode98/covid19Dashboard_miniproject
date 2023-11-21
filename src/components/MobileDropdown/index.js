@@ -11,16 +11,22 @@ const MobileDropdownValue = () => {
           showDropdown();
         };
         return (
-          <>
+          <div className="mobileView-droplist">
             {dropdownValue && (
               <ul className="linkContainer2">
-                <Link to="/">
-                  <li className="text"> Home</li>
-                </Link>
-                <Link to="/about">
-                  <li className="text">About</li>
-                </Link>
                 <li>
+                  <Link to="/" className="text">
+                    Home
+                  </Link>
+                </li>
+
+                <li>
+                  <Link to="/about" className="text">
+                    About
+                  </Link>
+                </li>
+
+                <li className="closeBtnContainer">
                   <button
                     type="button"
                     className="closeBtn"
@@ -31,7 +37,7 @@ const MobileDropdownValue = () => {
                 </li>
               </ul>
             )}
-          </>
+          </div>
         );
       }}
     </DashboardContext.Consumer>

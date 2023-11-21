@@ -49,19 +49,20 @@
 .iconContainer {
   display: flex;
   align-items: center;
-  min-width: 200px;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
 }
-@media screen and (max-width: 360px) {
+/* @media screen and (max-width: 360px) {
   .iconContainer {
     padding-left: 121px;
     padding-right: 122px;
   }
-}
+} */
 .githubIcon {
   height: 46.11px;
   width: 42px;
   color: #cbd5e1;
+  margin-left: 10px;
 }
 /* @media screen and (max-width: 360px) {
   .githubIcon {
@@ -74,6 +75,7 @@
   height: 61px;
   width: 47px;
   color: #cbd5e1;
+  margin-left: 10px;
 }
 /* @media screen and (max-width: 360px) {
   .instaIcon {
@@ -86,6 +88,7 @@
   height: 49px;
   width: 40px;
   color: #cbd5e1;
+  margin-left: 10px;
 }
 /* @media screen and (max-width: 360px) {
   .twitterIcon {

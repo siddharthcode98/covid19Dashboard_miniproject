@@ -1,9 +1,9 @@
 .linkContainer2 {
-  width: 360px;
-  position: absolute;
-  top: 80px;
   display: flex;
+  align-items: center;
   list-style: none;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .text {
   font-weight: 500;
@@ -14,16 +14,26 @@
   letter-spacing: -0.35555556416511536px;
   text-align: left;
   color: #94a3b8;
-  margin-right: 20px;
+  text-decoration: none;
+  margin-left: 10px;
 }
 .close {
   color: #ffffff;
   height: 20px;
   width: 20px;
-  margin-left: 174px;
-  margin-right: 26px;
 }
 .closeBtn {
   background-color: transparent;
   border: none;
+}
+.mobileView-droplist {
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .mobileView-droplist {
+    display: none;
+  }
+}
+.closeBtnContainer {
+  margin-left: auto;
 }

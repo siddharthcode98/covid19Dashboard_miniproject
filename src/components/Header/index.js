@@ -38,10 +38,10 @@ const Header = (props) => {
               </button>
 
               <ul className="linkContainer">
-                <Link to="/">
+                <Link to="/" style={{ textDecoration: "none" }}>
                   <li className={homeActive}>Home</li>
                 </Link>
-                <Link to="/about">
+                <Link to="/about" style={{ textDecoration: "none" }}>
                   <li className={AboutActive}>About</li>
                 </Link>
               </ul>
